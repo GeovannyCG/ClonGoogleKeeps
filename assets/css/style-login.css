@@ -1,0 +1,37 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: #202124;
+}
+
+/* Cabecalho */
+header {
+    border-bottom: 1px solid #CCC;
+    padding: 1rem 2rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#search-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#search-input {
+    background-color: #525356;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    color: #ddd;
+    width: 400px;
+}
