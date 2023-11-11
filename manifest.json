@@ -1,0 +1,16 @@
+{
+    "name": "Clone Google Keep",
+    "short_name": "Keep",
+    "description": "PWA clonando a la App de Google Keeps",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000",
+    "icons": [
+        {
+            "src": "./assets/images/logo-keep.webp",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
